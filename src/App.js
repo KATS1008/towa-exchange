@@ -4,23 +4,23 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="app-header">
+      <header className="App-header">
         <h1>🔄 TOWA Exchange</h1>
-        <p>バックエンド設定調整中...</p>
-        <div className="status">
-          <h3>📋 進捗</h3>
+        <p>クリーンな状態でのテスト</p>
+        <div style={{
+          background: 'white',
+          color: 'black',
+          padding: '20px',
+          borderRadius: '10px',
+          margin: '20px',
+          textAlign: 'left'
+        }}>
+          <h3>準備完了リソース:</h3>
           <ul>
-            <li>✅ React アプリケーション</li>
-            <li>✅ AWS Cognito 準備完了</li>
-            <li>✅ S3 バケット準備完了</li>
-            <li>🔧 統合作業中</li>
+            <li>✅ Cognito User Pool: ap-northeast-1_P1vtQonbW</li>
+            <li>✅ Cognito Client ID: 7i9ut1bd0d4jqncn5kbf98skfk</li>
+            <li>✅ S3 Bucket: towa-exchange-files-2025</li>
           </ul>
-        </div>
-        <div className="credentials">
-          <h3>🔧 設定情報</h3>
-          <p><strong>Cognito Pool:</strong> ap-northeast-1_P1vtQonbW</p>
-          <p><strong>Client ID:</strong> 7i9ut1bd0d4jqncn5kbf98skfk</p>
-          <p><strong>S3 Bucket:</strong> towa-exchange-files-2025</p>
         </div>
       </header>
     </div>
